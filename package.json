@@ -1,0 +1,36 @@
+{
+  "name": "nuxt-app",
+  "version": "1.0.0",
+  "private": true,
+  "config": {
+    "nuxt": {
+      "host": "0.0.0.0",
+      "port": "8000"
+    }
+  },
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate",
+    "pm2": "nuxt build && pm2 start npm --name test-nuxt -- run start"
+  },
+  "dependencies": {
+    "@nuxtjs/axios": "^5.12.5",
+    "axios": "^0.21.1",
+    "core-js": "^3.8.3",
+    "nuxt": "^2.14.12",
+    "vant": "^2.12.6"
+  },
+  "devDependencies": {
+    "eslint-config-prettier": "^7.2.0",
+    "eslint-plugin-prettier": "^3.3.1",
+    "node-sass": "^5.0.0",
+    "prettier": "^2.2.1",
+    "sass-loader": "^10.1.1"
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions"
+  ]
+}

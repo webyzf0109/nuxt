@@ -1,0 +1,215 @@
+/*form表单协议*/
+.formModel-box{
+  width: 100% ;
+  height: auto;
+  padding: 0.2rem;
+  overflow: hidden;
+  max-width:600px;
+}
+
+.formModel-box-nei{
+  width: 7.1rem;
+  height: auto;
+  background: #fff;
+  padding:0.2rem;
+  border-radius:0.2rem;
+  max-width: 565px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+
+.lastBox1 {
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+  margin: 0.2rem auto 0 auto;
+}
+
+.formBox {
+  width: 6.7rem;
+  height: auto;
+  background: #fff;
+  margin: 0.08rem  auto 0 auto;
+  border: none!important;
+  padding: 0;
+  max-width: 565px;
+}
+
+.formBox .form {
+  width: 100%;
+  height: 0.75rem;
+  line-height: 0.75rem;
+  text-indent: 0.2rem;
+  margin: 0 auto 0 auto;
+  font-size: 0.28rem;
+  padding-top: 0;
+  padding-bottom: 0;
+  max-width: 565px;
+  border-radius:5px;
+  border: 1px solid #ccc;
+}
+
+.van-hairline--top-bottom::after, .van-hairline-unset--top-bottom::after {
+  border: none;
+}
+
+
+.areaBox {
+  width: 7.2rem;
+  height: 0.75rem;
+  margin: 0 auto auto auto;
+  border: none;
+  text-indent: 0.2rem;
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+.areaBox .form{
+  margin-top: 0;
+  padding: 0;
+}
+
+
+
+.province,
+.city,
+.area,
+.number {
+  width: 2.33rem;
+  height: 1rem;
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+}
+
+.areaBox .van-field__control {
+  text-indent: 0.5rem;
+  width: 100%;
+  /*margin-left: 0.4rem;*/
+  position: absolute;
+  z-index: 100;
+}
+
+.areaBox .province:before,
+.city:before,
+.area:before{
+  z-index: 999;
+  top: 0rem;
+}
+.areaBox-notice {
+  font-size: 0.24rem;
+  color: #999999;
+  display: block;
+  text-align: center;
+  margin-top: 0.1rem;
+}
+.formStreet {
+  text-indent: 10px;
+  padding-left: 25px;
+}
+
+
+
+/*form表单标题样式*/
+.form-title {
+  width: 100%;
+  text-align: center;
+  color: #999;
+  font-size: 0.24rem;
+  margin-top: 0.2rem;
+}
+
+/*form表单协议*/
+.xieyi-box {
+  width: calc(100% - 0.4rem);
+  justify-content: center;
+  display: flex;
+  padding: 0 10px;
+  margin: 10px auto 0 auto;
+  font-size: 12px;
+  flex-wrap: wrap;
+  align-items: flex-start;
+}
+
+.rules{
+  width: 5rem;
+  margin-left: 0.3rem;
+}
+
+
+/*按钮*/
+.button {
+  width: 6.7rem;
+  height: 0.88rem;
+  border-radius: 0.5rem;
+  font-size: 0.36rem;
+  font-weight: bold;
+  color: #fff;
+  text-align: center;
+  line-height: 0.88rem;
+  letter-spacing: 2px;
+  margin: 0.2rem auto 0 auto;
+  outline: none;
+  border: none;
+  display: flex;
+  justify-content: center;
+  max-width: 565px;
+  /* background-image: url("http://kswk.kol.top/cmccflowerNew-button-click.jpg");
+  background-size: cover; */
+}
+
+/*省市区弹窗*/
+
+.provinceBox {
+  width: 33%;
+  height: 8rem;
+  overflow-y: scroll;
+  font-size: 0.28rem;
+  float: left;
+}
+.provinceBox div{
+  white-space:nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.provinceBox div.active{
+  color: #f00000;
+}
+.provinceBox .title-notic {
+  width: 90%;
+  text-align: center;
+  font-size: 0.32rem;
+  font-weight: 600;
+  margin-left: 5%;
+  color: #000;
+  margin-top: 0.5rem;
+  float: left;
+  height: 0.5rem;
+  line-height: 0.6rem;
+  border-bottom: 1px solid #e5e5e5;
+  text-indent: 0 !important;
+}
+
+.provinceBox .title-a {
+  width: 90%;
+  text-align: center;
+  font-size: 0.28rem;
+  margin-left: 5%;
+  color: #999;
+  float: left;
+  height: 0.6rem;
+  line-height: 0.6rem;
+  text-indent: 0 !important;
+}
+
+.provinceBox div {
+  width: 100%;
+  height: 0.6rem;
+  line-height: 0.6rem;
+  text-align: left;
+  padding: 5px 0;
+  text-indent: 0.6rem;
+}
+
+.provinceBox div:last-child {
+  padding-bottom: 0.3rem;
+}

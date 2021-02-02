@@ -1,0 +1,229 @@
+html, body {
+  padding: 0;
+  margin: 0;
+  font-size: 12px;
+}
+
+body {
+  margin: 0 auto;
+}
+
+[v-cloak] {
+  display: none;
+}
+
+#app {
+  overflow-x: hidden;
+}
+
+.img-header {
+  width: 100%;
+  font-size: 0;
+}
+
+.float-gif{
+  width: 1.35rem;
+  height: 1.39rem;
+  position: fixed;
+  right: 0;
+  top: 6.2rem;
+  z-index: 999;
+}
+.pop-box{
+  background: none!important;
+}
+.pop-img{
+  width: 7.5rem;
+  height: 8.72rem;
+}
+
+/*查询*/
+.orderSearch {
+  width: 80px;
+  height: 30px;
+  background: rgba(0, 0, 0, 0.3);
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+  color: #fff;
+  font-size: 14px;
+  text-align: center;
+  line-height: 30px;
+  position: absolute;
+  top: 25px;
+  right: 0;
+}
+.complaint{
+  width: 80px;
+  height: 30px;
+  background: rgba(0, 0, 0, 0.3);
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+  color: #fff;
+  font-size: 14px;
+  text-align: center;
+  line-height: 30px;
+  position: absolute;
+  top: 65px;
+  right: 0;
+}
+
+/*跑马灯*/
+.swiper-box {
+  width: 6.7rem;
+  height: 0.8rem;
+  line-height: 0.8rem;
+  text-indent: 0.3rem;
+  background: #ffe4ad;
+  border-radius: 0.2rem;
+  margin: 0 auto 0 auto;
+  color: #ff8743;
+  max-width: 565px;
+}
+
+.swiper-box-item {
+  font-size: 0.28rem !important;
+}
+
+.i-vant-icon {
+  margin-right: 0.2rem;
+  display: flex;
+  align-items: center;
+  height: 0.8rem;
+}
+
+/*图片列表*/
+.imgList {
+  width: 100%;
+  height: auto;
+  font-size: 0;
+  padding-bottom: 50px;
+}
+
+.imgList img {
+  width: 100%;
+}
+
+/*底图*/
+.footer {
+  display: flex;
+  flex-direction: column;
+  font-size: 0;
+  width: 100%;
+  height: 85px;
+}
+
+.footer img {
+  width: 100%;
+}
+
+.footer-active {
+  display: block;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  left: 0;
+  right: 0;
+  margin: auto;
+  z-index: 999;
+  max-width: 640px;
+}
+
+.footer-none {
+  display: none !important;
+}
+
+/* 按钮 */
+.van-field__button {
+  position: absolute;
+  top: 0;
+  right: -14px;
+
+}
+
+.van-field__button .van-button--primary {
+  color: #fff;
+  height: 35px;
+  border-top-right-radius: 25px;
+  border-bottom-right-radius: 25px;
+}
+
+/*选号*/
+.numberList {
+  width: 100%;
+  height: 4rem;
+  margin: 0.4rem auto;
+  font-size: 0.28rem;
+}
+
+.numberList .numberItem {
+  width: 50%;
+  height: 1rem;
+  float: left;
+  text-indent: 0.6rem;
+  position: relative
+}
+.numberList .liang{
+  width:0.34rem;
+}
+.refesh-button{
+  width: 120px;
+  height: 35px;
+  border-radius: 20px;
+  border: 1px solid #0e7df0;
+  font-size: 14px;
+  color: #0e7df0;
+  line-height: 35px;
+  text-align: center;
+  margin: 0 auto 20px auto;
+  display: flex;
+  justify-content: center;
+}
+.refesh-button .refesh-loading {
+  margin-left: 15px;
+}
+.titlea .van-cell__title {
+  color: #f00000;
+}
+
+
+/*折叠*/
+.drop{
+  width: 40px!important;
+  padding: 20px 0;
+}
+.drop2{
+  width: 40px!important;
+  padding: 20px 0;
+  transform: rotate(180deg);
+  transition: transform;
+}
+
+.detailShow{
+  display:inline-block!important;
+}
+.detailHide{
+  display: none!important;
+}
+
+
+.cmccOther-dialog .van-dialog__content{
+  padding: 10px;
+  height: 60vh!important;
+  overflow: scroll;
+  font-size: 13px!important;
+  color: #333!important;
+}
+
+.cmccOther-dialog .van-dialog__content p{
+  margin: 0;
+  padding: 0;
+}
+
+
+a{
+  display: none;
+}
+
+.van-loading__text{
+  color: #ffffff!important;
+}
